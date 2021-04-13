@@ -3,7 +3,7 @@
 body {
   margin: 0;
   font-size: 16px;
-  line-height: 1.8em;
+  line-height: 1.5em;
   font-family: 'Antonio', sans-serif;
   font-family: 'PT Serif', serif;
 }
@@ -62,7 +62,9 @@ main {
 }
 
 .course .title {
-  color: #383c4f;
+  color: #315D8C;
+  text-decoration: underline overline;
+  font-weight: bold;
   -ms-flex: 0 0 33.3%;
   flex: 0 0 33.3%;
   max-width: 33%
@@ -102,9 +104,24 @@ ul.list-dashed > li:before {
 }
 
 .school span {
-  color: #A7B8BF;
+  color: #315D8C;
+  font-weight: bold;
+  text-decoration: underline;
 }
 
 footer {
  padding: 1em;
+ font-size: 13px; 
+ line-height: 1.2em;
+ width: 1020px;
+ background-color: #435C76;
+ font-color: white;
+}
+
+a {
+  color: #1C9C94;
+}
+
+a:hover {
+  opacity: 0.5;
 }
