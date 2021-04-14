@@ -20,8 +20,8 @@ You can display it in English and Polish version (to change the language, just c
 * FontAwesome5
 
 ## Setup
-The webpage has been published under GitHub Pages, so you can check it out under this link:
-LINK
+The webpage has been published under GitHub Pages, so you can check it out under this link:\
+https://oopalinska.github.io/MyCV/
 
 ## Status
 Project is: _in progress_ \
