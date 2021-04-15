@@ -38,7 +38,7 @@ section{
 }
 #section-top {
   padding: 2em;
-  width: 80%;
+  width: 85%;
   font-size: 18px;
   text-align: center;
   line-height: 1.2em;
@@ -131,7 +131,7 @@ footer {
  width: 1024px;
  height: 100px;
  float: center;
- background-color: #9E7E53;
+ background-color: #C6AC79;
  font-color: white;
  font-size: 13px; 
 }
