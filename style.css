@@ -75,12 +75,13 @@ header {
 }
 
 .one {
-  width: 100%;
+  margin-top: 25px;
+  width: 30%;
   height: 50px;
   float: left;
 }
 .two {
-  margin-left: 65%;
+  margin-left: 40%;
   height: 50px;
   float: center;
 }
@@ -112,6 +113,7 @@ ul {
   text-align: left;
 }
 ul.list-none {
+ margin: 15%;
  list-style: none;
 }
 ul.list-dashed {
@@ -122,7 +124,6 @@ ul.list-dashed > li {
  padding-left: 1.5em; 
 }
 ul.list-dashed > li:before {
-  content: "▶";
   padding-right: 0.5em;
 }
 
@@ -138,11 +139,30 @@ footer {
 
 
 a {
-  color: #32200A;
+  color: #665B4E;
+  font-style: italic;
   text-decoration: none;
   
 }
 
 a:hover {
   opacity: 0.5;
+}
+
+@media only screen and (max-width: 768px) {
+  .course {
+    display: block;
+  }
+
+  .course .title, .course .descrition {
+    max-width: 100%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+    max-width: 100%;
+}
+
+@media only screen and (max-width: 576px) {
+    max-width: 100%;
 }
