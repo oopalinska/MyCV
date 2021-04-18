@@ -70,7 +70,7 @@ header {
   height: 330px;
 }
 .container {
-  width: 80%;
+  width: 70%;
   height: 180px;
   border-bottom: none; 
 }
@@ -82,10 +82,11 @@ header {
   float: left;
 }
 .two {
-  margin-left: 40%;
+  margin-left: 30%;
   height: 50px;
   float: center;
 }
+
 header section {
   margin: 0 auto;
   width: 800px;
@@ -151,13 +152,11 @@ a:hover {
 }
 
 @media only screen and (max-width: 768px) {
-header, footer {
-    width: 100%;
-}
+
 main {
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
-  flex-basis: 100%;
+  
 }
 }
-
