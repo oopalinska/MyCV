@@ -150,19 +150,19 @@ a:hover {
 }
 
 @media only screen and (max-width: 768px) {
-  .course {
-    display: block;
-  }
-
-  .course .title, .course .descrition {
+header, main, footer {
     max-width: 100%;
-  }
+}
 }
 
 @media only screen and (max-width: 768px) {
+header, main, footer {
     max-width: 100%;
+}
 }
 
 @media only screen and (max-width: 576px) {
+header, main, footer {
     max-width: 100%;
+}
 }
