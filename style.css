@@ -15,16 +15,16 @@ article {
   padding: 0 1em;
 }
 .courses{
-  height: 350px;
+  height: 450px;
 }
 .education{
-  height: 250px;
+  height: 200px;
 }
 .technologies{
   height: 350px;
 }
 .interests{
-  height: 280px;
+  height: 200px;
 }
 section{
   margin: auto;
